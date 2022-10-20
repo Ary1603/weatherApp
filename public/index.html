@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script 
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9VUrBrtzQI3iqobjaC-KvZxEfdImmYDc&libraries=places">
+    </script>
+    <script defer src="script.js"></script>
+    <title>Weather App</title>
+    <link rel="shortcut icon" href="./img/favicon.png">
+</head>
+
+
+<body>
+    <div class="container">
+        <img src="./img/sunny.webp" alt="weather icon" class="icon-weather">
+        <div class="content">
+            <div class="general-information">
+                <div class="status" data-status>Enter A Location</div>
+                <div class="location" data-location>To Fin The Weather</div>
+            </div>
+            <div class="details-section">
+                <div class="detail">
+                    <div class="title">Wind</div>
+                    <div class="value" data-wind>TBD</div>
+                </div>
+                <div class="detail">
+                    <div class="title">Temperature</div>
+                    <div class="value" data-temperature>TBD</div>
+                </div>
+                <div class="detail">
+                    <div class="title">Humidity</div>
+                    <div class="value" data-humidity>TBD</div>
+                </div>
+            </div>
+            <div class="city-search-container">
+                <input type="text" class="city-search" data-city-search placeholder="Enter Location">
+            </div>
+        </div>
+    </div>
+    <a href="https://www.yahoo.com/" class="forecast-logo">Powered By yahoo.com</a>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+
+    background-image: url('./img/bgSunny.jpg');
+    background-size: cover;
+
+}
+
+.container {
+    background-color: rgba(172, 181, 189, 0.507);
+    margin: 12vh 25vw;
+    width: 50vw;
+    height: 70vh;
+    border-radius: 15px;
+}
+
+.icon-weather{
+    width: 20vh;
+    padding-top: 4vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+
+.header{
+    background-color: rgba(137, 43, 226, 0.658);
+}
+
+.general-information{
+    text-align: center;
+    padding-top: 3.5vh;
+    font-size: 5vh;
+    color: rgba(255, 255, 255, 0.753);
+}
+
+
+.details-section {
+    margin-top: 6vh;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.808);
+}
+
+.title{
+    font-size: 4vh;
+    margin: 8px;
+}
+
+.value{
+    font-size: 3vh;
+}
+.city-search-container{
+    margin-top: 4vh;
+    display: flex;
+    justify-content: center;   
+}
+.city-search{
+    font-size: 3.3vh;
+    border-radius: 6.5px;
+    background-color: rgba(199, 203, 206, 0.774);
+    border-color: rgba(224, 221, 221, 0.801);
+    color: rgba(102, 104, 105, 0.801);
+    width: 50%;
+    height: 4vh;
+}
+
+.pac-item{
+    font-size: 3vh;
+    padding: 10x 10px;
+}
+
+.pac-item-query{
+    font-size: 3vh;
+    padding-right: 14px;
+}
