@@ -35,13 +35,6 @@ app.post('/weather', (req, res) => {
     }).catch(function (error) {
         console.error(error);
     });
-
-    // axios.request(options).then(function (response) {
-        
-    // }).then(data => res.json(data.response.data))
-
-
-    console.log(req.body)
 })
 
 app.listen(port, () => {
